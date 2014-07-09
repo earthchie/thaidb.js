@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	
+	<title>Province</title>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	
+	<meta name="author" content="Earthchie www.earthchie.com" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	
+	<!-- javascript -->
+	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="thaidb/thaidb.js"></script>
+
+</head>
+<body>
+
+	<input type="text" name="district" placeholder="ตำบล"><br>
+	<input type="text" name="amphoe" placeholder="อำเภอ"><br>
+	<input type="text" name="province" placeholder="จังหวัด"><br>
+	<input type="text" name="zipcode" placeholder="รหัสไปรษณีย์">
+	
+	<script>
+	
+		ThaiDB(); // เรียกใช้งาน
+		
+		/* วิธีเรียกใช้งานแบบกำหนดค่าเอง, ทำแคชฐานข้อมูลล่วงหน้า
+		
+		// แบบกำหนด selector เองได้ว่า field ไหนอยู่ที่ไหน
+		// preload() คือสั่งให้ดาวน์โหลด Database มาแคชไว้ล่วงหน้าเลย (ปกติจะโหลดฐานข้อมูลเฉพาะตอนที่จะใช้เท่านั้น)
+		
+		ThaiDB({
+			district: '[name="district"]',
+			amphoe: '[name="amphoe"]',
+			province: '[name="province"]',
+			zipcode: '[name="zipcode"]'
+		}).preload();
+		
+		*/
+	</script>
+</body>
+</html>
