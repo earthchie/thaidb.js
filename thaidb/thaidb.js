@@ -1,8 +1,10 @@
-/*
- * ThaiDB v. 1.0 (21 June 2014)
- * Created By Earthchie (http://www.earthchie.com/)
+ /**
+ * @name ThaiDB v. 1.0 (21 June 2014)
+ * @version 1.0 (21 June 2014)
+ * @author Earthchie (http://www.earthchie.com/)
  * @require JQuery 1.8 or newer
- * Database source: http://www.ssckp.org/information-technology-for-crewphra-news/79-temples-tumbons-districts-amphures-77-provinces-database
+ *
+ * @license WTFPL v.2 - http://www.wtfpl.net/
  */
 var scripts = document.getElementsByTagName('script');
 var base_path = scripts[scripts.length-1].src.split('?')[0].split('/').slice(0, -1).join('/')+'/';
@@ -143,9 +145,12 @@ var ThaiDB = function(options){
 	return this;
 }
 
-/*
- * JQL v. 1.0 (20 May 2014)
- * Created By Earthchie (http://www.earthchie.com/)
+/**
+ * @name JQL
+ * @version 1.0 (20 May 2014)
+ * @author Earthchie (http://www.earthchie.com/)
+ *
+ * @license WTFPL v.2 - http://www.wtfpl.net/
  */
  
 var JQL = function(obj){
