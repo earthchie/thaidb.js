@@ -1,5 +1,8 @@
-ThaiDB.js
-=============
+
+# ThaiDB.js is buggy please move to jquery.Thailand.js instead
+https://github.com/earthchie/jquery.Thailand.js
+
+## ThaiDB.js
 
 **version:** 1.0 (21 June 2014)
 
